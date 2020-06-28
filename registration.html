@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <link rel="stylesheet" type="text/css" href="Style_reg.css">
+</head>
+  <body>
+      <a href=" https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" alt="IIIT Hyderabad" width="120">
+      </a>
+      <a href="https://serc.iiit.ac.in/rdip" style="float: right;"><h4>RDIP</h4></a>
+      <nav id="navbar">
+      <div>
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="registration.html">Registration Form</a></li>
+        </ul>
+      </div>
+    </nav><br>
+    <form class="form" action="details.html" method="Get">  
+          <div class="container">  
+          <center>  <h1> Student Registeration Form</h1> </center>  
+          <hr>  
+          <label> First Name </label>   
+        <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+        <div>  
+        <label>   
+        Gender :  
+        </label>
+        <input type="radio" value="Male" name="gender" checked > Male   
+        <input type="radio" value="Female" name="gender"> Female   
+        <input type="radio" value="Other" name="gender"> Other  
+          
+        <div>  
+          <label>   
+          Reason for RDIP :  
+          </label>
+          <input type="radio" value="HTML" name="Reason" checked > HTML   
+          <input type="radio" value="CSS" name="Reason"> CSS   
+          <input type="radio" value="JavaScript" name="Reason"> JavaScript 
+            
+          </div>  
+        </div>  
+        <label>   
+        Phone :  
+        </label>  
+        <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+        <input type="text" name="phone" placeholder="phone no." size="10"/ required>    
+         <label for="email"><b>Email</b></label>  
+         <input type="text" placeholder="Enter Email" name="email" required> <br><br>  
+         <label><input type="radio" value="Declare" name="Declare" checked="true"  >
+               I declare that the above details are true and valid. 
+            </label> <br><br> 
+            <button type="submit" class="registerbtn">Register</button>
+
+        </form> 
+  </body>
+  </html>
