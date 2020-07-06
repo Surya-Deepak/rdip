@@ -1,0 +1,30 @@
+body{
+	background-color: grey;
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	margin-left: 90px;
+	padding: 25px;
+}
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 70%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+#fa {
+	background-color: orange;
+	margin-top: 50px;
+	display: block;
+	margin-left: 650px;
+}
+form {
+    width: 400px;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
